@@ -10,7 +10,7 @@ public class StockManagementMain {
 		StockPortfolio stockPortfolio = new StockPortfolio(noOfStocks);
 		System.out.println("Enter the stocks");
 		for (int index = 0; index < noOfStocks; index++) {
-			System.out.println("Enter name , No of shares and Share price for stock" + (index + 1));
+			System.out.println("Enter name , No of shares and Share price for stock" + index++);
 			String stockName = scanner.nextLine();
 			int noOfShares = Integer.parseInt(scanner.nextLine());
 			int sharePrice = Integer.parseInt(scanner.nextLine());
