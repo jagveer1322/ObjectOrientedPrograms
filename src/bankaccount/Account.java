@@ -26,14 +26,14 @@ public class Account {
 
 	void deposit() {
 		long amt;
-		System.out.println("Enter the amount you want to deposit : ");
+		System.out.println("Type the amount you want to deposit : ");
 		amt = sc.nextLong();
 		accBalance = accBalance + amt;
 	}
 
 	void withdrawal() {
 		long amt;
-		System.out.println("Enter the amount you want to withdraw : ");
+		System.out.println("Type the amount you want to withdraw : ");
 		amt = sc.nextLong();
 		if (accBalance >= amt) {
 			accBalance = accBalance - amt;

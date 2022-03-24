@@ -16,7 +16,6 @@ public class AccountTest {
 
 		int option;
 		do {
-			System.out.println("==============================");
 			System.out.println(
 					"Select option:\n 1. Display All\n 2. Search by Account\n 3. Deposit\n 4. Withdrawal\n 5. Exit ");
 			option = sc.nextInt();
